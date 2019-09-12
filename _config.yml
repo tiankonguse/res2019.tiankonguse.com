@@ -1,0 +1,26 @@
+# Where things are
+# auto: true
+source:      .
+destination: ./_site
+future: true
+# Handling Reading
+
+include: [".htaccess"]
+exclude: ["README.md", ".git", ".svn"]
+keep_files: ["/static/","/images/"]
+encoding : utf-8
+markdown_ext: "md"
+textile_ext:  "textile"
+
+future:      true
+unpublished: false
+
+#    noscript: false
+excerpt_separator: "\n\n"
+
+
+# Serving
+port:    80
+host: http://res2019.tiankonguse.com
+baseurl: "/" # does not include hostname
+url: http://res2019.tiankonguse.com
